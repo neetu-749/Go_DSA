@@ -17,20 +17,20 @@ void printArray(int arr[], int n){
 }
 
 int main(){
-    int arr1[5]={1,2,3,4,5};
-    int arr2[6]={1,2,3,4,5,6};
+    
+    int arr1[6]={1,2,3,4,5,6};
+    int arr2[7]={11,12,13,14,15,16,17};
 
-    swapAlter(arr1,5);
-    printArray(arr1,5);
+    swapAlternate(arr1, 6) ;
+    printArray(arr1, 6);
 
-    swapAlter(arr2,6);
-    printArray(arr2,6);
+    swapAlternate(arr2, 7) ;
+    printArray(arr2, 7);
 }
 
-/* 
-
-Output:
-5 4 3 2 1   
-6 5 4 3 2 1 
+/*
+sample output:
+2 1 4 3 6 5 
+12 11 14 13 16 15 17
 
 */
